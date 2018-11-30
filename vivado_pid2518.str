@@ -1,0 +1,934 @@
+/*
+
+Xilinx Vivado v2018.2.2 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2348494 on Mon Oct  1 18:25:39 MDT 2018
+IP Build: 2318053 on Mon Oct  1 21:44:26 MDT 2018
+
+Process ID: 2518
+License: Customer
+
+Current time: 	Fri Nov 30 13:30:06 PST 2018
+Time zone: 	Pacific Standard Time (America/Los_Angeles)
+
+OS: Ubuntu
+OS Version: 4.15.0-39-generic
+OS Architecture: amd64
+Available processors (cores): 4
+
+Display: :0
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 51 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/opt/Xilinx/Vivado/2018.2/tps/lnx64/jre
+Java executable location: 	/opt/Xilinx/Vivado/2018.2/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	root
+User home directory: /root
+User working directory: /home/saba/Documents/workstation4_image_processing
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/Xilinx/Vivado
+HDI_APPROOT: /opt/Xilinx/Vivado/2018.2
+RDI_DATADIR: /opt/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: /opt/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: /home/saba/.Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: /home/saba/.Xilinx/Vivado/2018.2/
+Vivado layouts directory: /home/saba/.Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	/opt/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	/home/saba/Documents/workstation4_image_processing/vivado.log
+Vivado journal file location: 	/home/saba/Documents/workstation4_image_processing/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-2518-saba-VirtualBox
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /opt/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: /opt/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: /opt/Xilinx/Vivado/2018.2
+XILINX_SDK: /opt/Xilinx/SDK/2018.2
+XILINX_VIVADO: /opt/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: /opt/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	166 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 816 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 61 MB (+61551kb) [00:00:10]
+// [Engine Memory]: 816 MB (+704006kb) [00:00:10]
+// HMemoryUtils.trashcanNow. Engine heap size: 822 MB. GUI used memory: 34 MB. Current time: 11/30/18 1:30:08 PM PST
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // aa (ck)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [Engine Memory]: 872 MB (+16128kb) [00:00:17]
+// f (ck): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// Elapsed time: 12 seconds
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i (T, f)
+// [GUI Memory]: 110 MB (+48186kb) [00:00:38]
+setText("PAResourceAtoD.BoardChooser_BOARD_TABLE_SEARCH_FIELD", "zed"); // OverlayTextField (G, f)
+selectTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "ZedBoard Zynq Evaluation and Development Kit ; ZedBoard Zynq Evaluation and Development Kit ; em.avnet.com ; 1.4 ; xc7z020clg484-1 ; 484 ; d ; 200 ; 53200 ; 106400 ; 140 ; 0 ; 220 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "ZedBoard Zynq Evaluation and Development Kit", 0); // d (O, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// bx (f):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project project_1 /home/saba/Documents/workstation4_image_processing/project_1 -part xc7z020clg484-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 952 MB (+37729kb) [00:00:46]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 975 MB. GUI used memory: 47 MB. Current time: 11/30/18 1:30:43 PM PST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 6141.617 ; gain = 74.008 ; free physical = 8470 ; free virtual = 11975 
+// TclEventType: BOARD_MODIFIED
+// Tcl Message: set_property board_part em.avnet.com:zed:part0:1.4 [current_project] 
+// TclEventType: PROJECT_CHANGE
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 34 seconds
+// Tcl Message: set_property target_language VHDL [current_project] 
+dismissDialog("Create Project"); // bx (f)
+dismissDialog("New Project"); // f (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 274 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,020 MB. GUI used memory: 53 MB. Current time: 11/30/18 1:35:33 PM PST
+// [Engine Memory]: 1,020 MB (+21669kb) [00:05:39]
+// Elapsed time: 55 seconds
+String[] filenames31467 = {"/home/saba/Downloads/F0UU05JILV7T644.vhd", "/home/saba/Downloads/F5IR32HILV7T64J.vhd", "/home/saba/Downloads/F6SJNRTILV7T642.vhd", "/home/saba/Downloads/FLW9TWWILV7T64G.vhd", "/home/saba/Downloads/FN0FBA2ILV7T649.vhd", "/home/saba/Downloads/FNTSDZZILV7T645.vhd", "/home/saba/Downloads/FQTSFQ5ILV7T63Z.vhd", "/home/saba/Downloads/FZTEBUMILV7T646.vhd"};
+setFileChooser(filenames31467);
+// Elapsed time: 12 seconds
+selectCheckBox(PAResourceQtoS.SrcChooserPanel_SCAN_AND_ADD_RTL_INCLUDE_FILES_INTO, "Scan and add RTL include files into project", true); // g (bm, c): TRUE
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 83 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: add_files -norecurse -scan_for_includes {/home/saba/Downloads/FN0FBA2ILV7T649.vhd /home/saba/Downloads/FZTEBUMILV7T646.vhd /home/saba/Downloads/FQTSFQ5ILV7T63Z.vhd /home/saba/Downloads/FLW9TWWILV7T64G.vhd /home/saba/Downloads/F6SJNRTILV7T642.vhd /home/saba/Downloads/FNTSDZZILV7T645.vhd /home/saba/Downloads/F5IR32HILV7T64J.vhd /home/saba/Downloads/F0UU05JILV7T644.vhd} 
+// c (ck): Add Sources: addNotify
+// bx (c):  Add Sources  : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -norecurse {/home/saba/Downloads/FN0FBA2ILV7T649.vhd /home/saba/Downloads/FZTEBUMILV7T646.vhd /home/saba/Downloads/FQTSFQ5ILV7T63Z.vhd /home/saba/Downloads/FLW9TWWILV7T64G.vhd /home/saba/Downloads/F6SJNRTILV7T642.vhd /home/saba/Downloads/FNTSDZZILV7T645.vhd /home/saba/Downloads/F5IR32HILV7T64J.vhd /home/saba/Downloads/F0UU05JILV7T644.vhd} 
+dismissDialog("Add Sources"); // bx (c)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,049 MB. GUI used memory: 48 MB. Current time: 11/30/18 1:36:53 PM PST
+// Elapsed time: 28 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1); // B (D, ck)
+// Elapsed time: 20 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a (C, c)
+dismissFileChooser();
+selectButton("CANCEL", "Cancel"); // JButton (j, c)
+// 'h' command handler elapsed time: 18 seconds
+dismissDialog("Add Sources"); // c (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a (C, c)
+setFileChooser("/home/saba/Downloads/F5QMAYQILV7T6TF.xdc");
+// Elapsed time: 14 seconds
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 23 seconds
+dismissDialog("Add Sources"); // c (ck)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse /home/saba/Downloads/F5QMAYQILV7T6TF.xdc 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: import_files -fileset constrs_1 /home/saba/Downloads/F5QMAYQILV7T6TF.xdc 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 8, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// PAPropertyPanels.initPanels (F5QMAYQILV7T6TF.xdc) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 10, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 10, false, false, false, false, false, true); // B (D, ck) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6, "Block Memory Generator", 0, false); // O (O, ck)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "block"); // OverlayTextField (P, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6, "Block Memory Generator", 0, false); // O (O, ck)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6); // O (O, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6, "Block Memory Generator", 0, false, false, false, false, false, true); // O (O, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// TclEventType: LOAD_FEATURE
+// l (ck):  Customize IP : addNotify
+// [Engine Memory]: 1,083 MB (+12158kb) [00:09:27]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,092 MB. GUI used memory: 52 MB. Current time: 11/30/18 1:39:24 PM PST
+// [Engine Memory]: 1,143 MB (+6750kb) [00:09:42]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,143 MB. GUI used memory: 52 MB. Current time: 11/30/18 1:39:38 PM PST
+// [Engine Memory]: 1,234 MB (+35632kb) [00:09:56]
+// r (ck): Customize IP: addNotify
+// Elapsed time: 34 seconds
+dismissDialog("Customize IP"); // l (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,237 MB. GUI used memory: 60 MB. Current time: 11/30/18 1:39:54 PM PST
+// Elapsed time: 53 seconds
+setText("Component Name", "design_1"); // z (P, r)
+// Elapsed time: 27 seconds
+setText("Component Name", "design_1_blk_mem"); // z (P, r)
+// Elapsed time: 24 seconds
+setText("Component Name", "design_1_blk_mem_gen_0_0"); // z (P, r)
+// Elapsed time: 10 seconds
+selectComboBox("Memory Type (Memory_Type)", "Simple Dual Port RAM", 1); // z (C, r)
+// Elapsed time: 35 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aY (C, r)
+// Elapsed time: 11 seconds
+setText("Defines the PortA Write Width(DINA)", "12"); // z (aZ, r)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,279 MB. GUI used memory: 60 MB. Current time: 11/30/18 1:42:39 PM PST
+setText("Write Depth", "307200"); // z (aZ, r)
+// Elapsed time: 11 seconds
+selectComboBox("Enable Port Type (Enable_A)", "Always Enabled", 0); // z (C, r)
+// Elapsed time: 21 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aY (C, r)
+selectComboBox("Enable Port Type (Enable_B)", "Always Enabled", 0); // z (C, r)
+// Elapsed time: 15 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aY (C, r)
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g (an, r): TRUE
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (an, r): FALSE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: CREATE_IP_CORE
+dismissDialog("Customize IP"); // r (ck)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name design_1_blk_mem_gen_0_0 
+// bx (ck):  Customize IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Component_Name {design_1_blk_mem_gen_0_0} CONFIG.Memory_Type {Simple_Dual_Port_RAM} CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {307200} CONFIG.Read_Width_A {12} CONFIG.Operating_Mode_A {NO_CHANGE} CONFIG.Enable_A {Always_Enabled} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12} CONFIG.Enable_B {Always_Enabled} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Register_PortB_Output_of_Memory_Primitives {true} CONFIG.Port_B_Clock {100} CONFIG.Port_B_Enable_Rate {100}] [get_ips design_1_blk_mem_gen_0_0] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/design_1_blk_mem_gen_0_0/design_1_blk_mem_gen_0_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'design_1_blk_mem_gen_0_0'... 
+// aI (ck): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bx (ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,297 MB (+1169kb) [00:13:55]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,309 MB. GUI used memory: 59 MB. Current time: 11/30/18 1:43:54 PM PST
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// bx (ck):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/design_1_blk_mem_gen_0_0/design_1_blk_mem_gen_0_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'design_1_blk_mem_gen_0_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'design_1_blk_mem_gen_0_0'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'design_1_blk_mem_gen_0_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'design_1_blk_mem_gen_0_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all design_1_blk_mem_gen_0_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/design_1_blk_mem_gen_0_0/design_1_blk_mem_gen_0_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/design_1_blk_mem_gen_0_0/design_1_blk_mem_gen_0_0.xci] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 4 design_1_blk_mem_gen_0_0_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Nov 30 13:43:56 2018] Launched design_1_blk_mem_gen_0_0_synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/design_1_blk_mem_gen_0_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 38 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,351 MB. GUI used memory: 58 MB. Current time: 11/30/18 1:44:39 PM PST
+// Elapsed time: 26 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : xil_defaultlib.blk_mem_gen_0]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : xil_defaultlib.blk_mem_gen_0]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 24 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : xil_defaultlib.blk_mem_gen_0]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : xil_defaultlib.blk_mem_gen_0]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 97 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "IP Catalog", 1); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, design_1_blk_mem_gen_0_0]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, design_1_blk_mem_gen_0_0]", 1, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // aa (aj, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, design_1_blk_mem_gen_0_0]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, design_1_blk_mem_gen_0_0]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, design_1_blk_mem_gen_0_0]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, design_1_blk_mem_gen_0_0, Instantiation Template]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, design_1_blk_mem_gen_0_0]", 1, true, false, false, false, true, false); // B (D, ck) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // aa (aj, ck)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/design_1_blk_mem_gen_0_0/design_1_blk_mem_gen_0_0.xci] -no_script -reset -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: remove_files  -fileset design_1_blk_mem_gen_0_0 /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/design_1_blk_mem_gen_0_0/design_1_blk_mem_gen_0_0.xci 
+// aE (ck): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_DELETE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_DELETE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [Project 1-386] Moving file '/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/design_1_blk_mem_gen_0_0/design_1_blk_mem_gen_0_0.xci' from fileset 'design_1_blk_mem_gen_0_0' to fileset 'sources_1'. 
+// Tcl Message: file delete -force /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/design_1_blk_mem_gen_0_0 
+dismissDialog("Remove Sources"); // bx (aE)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,363 MB (+519kb) [00:17:55]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 23 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Libraries", 1); // i (N, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), btn_debounce : debounce(Behavioral) (F5IR32HILV7T64J.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), btn_debounce : debounce(Behavioral) (F5IR32HILV7T64J.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,383 MB. GUI used memory: 65 MB. Current time: 11/30/18 1:48:34 PM PST
+// Elapsed time: 11 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "fb"); // l (aQ, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 127, 204); // ce (w, ck)
+// Elapsed time: 130 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 135, 114); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 39 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6, "Block Memory Generator", 0, false); // O (O, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6, "Block Memory Generator", 0, false); // O (O, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 6, "Block Memory Generator", 0, false, false, false, false, false, true); // O (O, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// r (ck): Customize IP: addNotify
+// Elapsed time: 10 seconds
+selectComboBox("Interface Type (Interface_Type)", "Native", 0); // z (C, r)
+selectComboBox("Memory Type (Memory_Type)", "True Dual Port RAM", 2); // z (C, r)
+// Elapsed time: 20 seconds
+setText("Component Name", "blk_mem_gen_0"); // z (P, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aY (C, r)
+// Elapsed time: 28 seconds
+setText("Defines the PortA Write Width(DINA)", "12"); // z (aZ, r)
+// Elapsed time: 13 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aY (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aY (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aY (C, r)
+// Elapsed time: 15 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aY (C, r)
+// Elapsed time: 18 seconds
+setText("Write Depth", "307200"); // z (aZ, r)
+selectComboBox("Enable Port Type (Enable_A)", "Always Enabled", 0); // z (C, r)
+selectComboBox("Operating Mode (Operating_Mode_A)", "No Change", 2); // z (C, r)
+selectCheckBox((HResource) null, "Primitives Output Register", false); // g (m, r): FALSE
+// Elapsed time: 14 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aY (C, r)
+// Elapsed time: 11 seconds
+selectComboBox("Enable Port Type (Enable_B)", "Always Enabled", 0); // z (C, r)
+selectComboBox("Operating Mode (Operating_Mode_B)", "No Change", 2); // z (C, r)
+selectComboBox("Operating Mode (Operating_Mode_B)", "Write First", 0); // z (C, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: CREATE_IP_CORE
+dismissDialog("Customize IP"); // r (ck)
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: create_ip -name blk_mem_gen -vendor xilinx.com -library ip -version 8.4 -module_name blk_mem_gen_0 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// bx (ck):  Customize IP : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Memory_Type {True_Dual_Port_RAM} CONFIG.Write_Width_A {12} CONFIG.Write_Depth_A {307200} CONFIG.Read_Width_A {12} CONFIG.Operating_Mode_A {NO_CHANGE} CONFIG.Enable_A {Always_Enabled} CONFIG.Write_Width_B {12} CONFIG.Read_Width_B {12} CONFIG.Operating_Mode_B {WRITE_FIRST} CONFIG.Enable_B {Always_Enabled} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Register_PortB_Output_of_Memory_Primitives {true} CONFIG.Port_B_Clock {100} CONFIG.Port_B_Write_Rate {50} CONFIG.Port_B_Enable_Rate {100}] [get_ips blk_mem_gen_0] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target {instantiation_template} [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'... 
+// aI (ck): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,421 MB. GUI used memory: 71 MB. Current time: 11/30/18 1:54:44 PM PST
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (ck):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 4 blk_mem_gen_0_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Nov 30 13:54:47 2018] Launched blk_mem_gen_0_synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/blk_mem_gen_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,438 MB (+7360kb) [00:25:01]
+// Elapsed time: 277 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,448 MB. GUI used memory: 71 MB. Current time: 11/30/18 1:59:44 PM PST
+// Elapsed time: 70 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 409, 146); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 999ms to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 117 MB (+1877kb) [00:32:28]
+// [GUI Memory]: 124 MB (+992kb) [00:34:43]
+// Elapsed time: 559 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 373, 199); // ce (w, ck)
+// Elapsed time: 18 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0]", 1); // B (D, ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0, Instantiation Template]", 2); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0, Instantiation Template, blk_mem_gen_0.vho]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0, Instantiation Template, blk_mem_gen_0.vho]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 20, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Resetting Runs"); // bx (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Nov 30 14:10:44 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log [Fri Nov 30 14:10:44 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// Elapsed time: 49 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F5QMAYQILV7T6TF.xdc", 5); // k (j, ck)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 427ms to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (ck): Bitstream Generation Failed: addNotify
+// [GUI Memory]: 131 MB (+429kb) [00:47:11]
+// Elapsed time: 414 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah (ck)
+selectTab((HResource) null, (HResource) null, "Tcl Console", 0); // aE (Q, ck)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ck)
+// Elapsed time: 379 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Vivado 12-1411] Cannot set LOC property of ports, Cannot set PACKAGE_PIN property of ports,  port OV7670_PCLK can not be placed on PACKAGE_PIN V12 because the PACKAGE_PIN is occupied by port OV7670_D[7] [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc:35]. ]", 5, false); // ah (O, ck)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "blk_mem_gen_0.vho", 6); // k (j, ck)
+// Elapsed time: 20 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (ck): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// [GUI Memory]: 139 MB (+2083kb) [00:56:37]
+// Elapsed time: 108 seconds
+selectButton("CANCEL", "Cancel"); // JButton (j, Q)
+// 'q' command handler elapsed time: 113 seconds
+dismissDialog("Create and Package New IP"); // Q (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,460 MB. GUI used memory: 79 MB. Current time: 11/30/18 2:29:44 PM PST
+// Elapsed time: 186 seconds
+selectCodeEditor("blk_mem_gen_0.vho", 34, 266); // D (w, ck)
+typeControlKey((HResource) null, "blk_mem_gen_0.vho", 'c'); // D (w, ck)
+typeControlKey((HResource) null, "blk_mem_gen_0.vho", 'c'); // D (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 4); // k (j, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), btn_debounce : debounce(Behavioral) (F5IR32HILV7T64J.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 73 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 101, 157); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 154 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 65, 144); // ce (w, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 67, 187); // ce (w, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 67, 187); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,484 MB. GUI used memory: 77 MB. Current time: 11/30/18 2:34:54 PM PST
+// Elapsed time: 10 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 1); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+// Elapsed time: 689 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aY (C, r)
+selectComboBox("Enable Port Type (Enable_B)", "Use ENB Pin", 1); // z (C, r)
+// Elapsed time: 16 seconds
+selectComboBox("Enable Port Type (Enable_B)", "Always Enabled", 0); // z (C, r)
+// Elapsed time: 21 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Power Estimation", 1); // aY (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, PAResourceEtoH.HACGCBasePanel_IP_SYMBOL, "IP Symbol", 0); // aY (C, r)
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", true); // g (an, r): TRUE
+selectCheckBox(PAResourceEtoH.HACGCIPSymbol_SHOW_DISABLED_PORTS, "Show disabled ports", false); // g (an, r): FALSE
+selectComboBox("Operating Mode (Operating_Mode_B)", "No Change", 2); // z (C, r)
+// Elapsed time: 10 seconds
+selectComboBox("Enable Port Type (Enable_B)", "Use ENB Pin", 1); // z (C, r)
+// Elapsed time: 11 seconds
+selectComboBox("Enable Port Type (Enable_B)", "Always Enabled", 0); // z (C, r)
+// Elapsed time: 38 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aY (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aY (C, r)
+selectComboBox("Memory Type (Memory_Type)", "Simple Dual Port RAM", 1); // z (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aY (C, r)
+selectComboBox("Enable Port Type (Enable_B)", "Always Enabled", 0); // z (C, r)
+// Elapsed time: 294 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Memory_Type {Simple_Dual_Port_RAM} CONFIG.Operating_Mode_B {WRITE_FIRST} CONFIG.Enable_B {Always_Enabled} CONFIG.Port_B_Write_Rate {0}] [get_ips blk_mem_gen_0] 
+// aI (ck): Generate Output Products: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 1,513 MB (+3911kb) [01:23:45]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (ck):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// HMemoryUtils.trashcanNow. Engine heap size: 1,521 MB. GUI used memory: 81 MB. Current time: 11/30/18 2:53:45 PM PST
+// Tcl Message: reset_run blk_mem_gen_0_synth_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 4 blk_mem_gen_0_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Nov 30 14:53:45 2018] Launched blk_mem_gen_0_synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/blk_mem_gen_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 11 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 119 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), btn_debounce : debounce(Behavioral) (F5IR32HILV7T64J.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ck)
+// Elapsed time: 65 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+// Elapsed time: 24 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 290, 232); // ce (w, ck)
+// Elapsed time: 63 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 364, 228); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 87 seconds
+selectButton(PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, "details"); // h (cM, ck)
+// Synthesis and Implementation Out-of-date Due to: show
+selectButton(PAResourceQtoS.StaleMoreAction_FORCE_UP_TO_DATE, "Force up-to-date"); // h (n, ResizableWindow)
+// Tcl Message: set_property needs_refresh false [get_runs synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs impl_1] 
+// Tcl Message: set_property needs_refresh false [get_runs blk_mem_gen_0_synth_1] 
+// Elapsed time: 110 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0, Instantiation Template]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0, Instantiation Template]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0, Instantiation Template, blk_mem_gen_0.vho]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0, Instantiation Template, blk_mem_gen_0.vho]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("blk_mem_gen_0.vho", 171, 365); // D (w, ck)
+selectCodeEditor("blk_mem_gen_0.vho", 49, 439); // D (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, blk_mem_gen_0]", 1, true); // B (D, ck) - Node
+selectButton(PAResourceAtoD.AbstractFileView_RELOAD, "Reload"); // h (cM, ck)
+selectCodeEditor("blk_mem_gen_0.vho", 41, 472); // D (w, ck)
+typeControlKey((HResource) null, "blk_mem_gen_0.vho", 'c'); // D (w, ck)
+typeControlKey((HResource) null, "blk_mem_gen_0.vho", 'c'); // D (w, ck)
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw
+// Elapsed time: 11 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 41 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 46, 114); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 119, 20); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 43, 186); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,548 MB. GUI used memory: 86 MB. Current time: 11/30/18 3:04:00 PM PST
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // B (f, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-4442] BlackBox module fb has unconnected pin web[0]. ]", 2, true); // ah (O, ck) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1]", 1, true, false, false, false, true, false); // ah (O, ck) - Popup Trigger - Node
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // aa (K, ck)
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // aa (K, ck)
+selectButton(PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, "details"); // h (cM, ck)
+// Synthesis and Implementation Out-of-date Due to: show
+selectButton(PAResourceQtoS.StaleMoreAction_FORCE_UP_TO_DATE, "Force up-to-date"); // h (n, ResizableWindow)
+// Tcl Message: set_property needs_refresh false [get_runs synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs impl_1] 
+// Tcl Message: set_property needs_refresh false [get_runs blk_mem_gen_0_synth_1] 
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Fri Nov 30 15:04:32 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 86 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Fri Nov 30 15:06:00 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 271 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+dismissDialog("Implementation Completed"); // ah (ck)
+// TclEventType: RUN_MODIFY
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Fri Nov 30 15:10:33 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// Elapsed time: 97 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Vivado 12-1411] Cannot set LOC property of ports, Cannot set PACKAGE_PIN property of ports,  port OV7670_PCLK can not be placed on PACKAGE_PIN V12 because the PACKAGE_PIN is occupied by port OV7670_D[7] [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc:35]. ]", 2, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc;-;;-;16;-;line;-;35;-;;-;16;-;"); // ah (O, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 29 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+// Elapsed time: 77 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,584 MB. GUI used memory: 91 MB. Current time: 11/30/18 3:14:10 PM PST
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2.2   **** Build date : Oct  1 2018-18:41:02     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V (q, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248774280 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/ov7670_top.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// [Engine Memory]: 2,099 MB (+534780kb) [01:45:09]
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1435] Device xc7z020 (JTAG device index = 1) is not programmed (DONE status = 0). 
+dismissDialog("Auto Connect"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,110 MB. GUI used memory: 89 MB. Current time: 11/30/18 3:15:06 PM PST
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/ov7670_top.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 114 seconds
+selectCodeEditor("FN0FBA2ILV7T649.vhd", 123, 81); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F5IR32HILV7T64J.vhd", 1); // k (j, ck)
+// Elapsed time: 24 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FN0FBA2ILV7T649.vhd", 0); // k (j, ck)
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: HW_OBJECT_DELETE
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bx (ck):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bx (ck)
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // aw (aE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), btn_debounce : debounce(Behavioral) (F5IR32HILV7T64J.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+// Elapsed time: 20 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aY (C, r)
+// Elapsed time: 17 seconds
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aY (C, r)
+// Elapsed time: 46 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+// aI (ck): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_CLOSE_DIALOG_UNSAVED_CHANGES_WILL, "Skip"); // a (aI)
+dismissDialog("Generate Output Products"); // aI (ck)
