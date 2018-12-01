@@ -1,8 +1,3 @@
-----------------------------------------------------------------------------------
--- Engineer: Mike Field <hamster@snap.net.nz>
--- 
--- Description: Top level for the OV7670 camera project.
-----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -12,6 +7,8 @@ use UNISIM.vcomponents.all;
 entity ov7670_top is
     Port ( 
 		clk100        : in    STD_LOGIC;
+		clk50 : in STD_LOGIC;
+		clk25 : in STD_LOGIC;
 		OV7670_SIOC  : out   STD_LOGIC;
 		OV7670_SIOD  : inout STD_LOGIC;
 		OV7670_RESET : out   STD_LOGIC;
@@ -22,7 +19,7 @@ entity ov7670_top is
 		OV7670_XCLK  : out   STD_LOGIC;
 		OV7670_D     : in    STD_LOGIC_VECTOR(7 downto 0);
 
-		LED          : out    STD_LOGIC_VECTOR(7 downto 0);
+		LED          : out    STD_LOGIC;
 
 		vga_red      : out   STD_LOGIC_VECTOR(3 downto 0);
 		vga_green    : out   STD_LOGIC_VECTOR(3 downto 0);
@@ -44,16 +41,6 @@ architecture Behavioral of ov7670_top is
 		);
 	END COMPONENT;
 
-component clocking
-port
- (-- Clock in ports
-  CLK_100           : in     std_logic;
-  -- Clock out ports
-  CLK_50          : out    std_logic;
-  CLK_25          : out    std_logic
- );
-end component;
-
 	COMPONENT ov7670_controller
 	PORT(
 		clk   : IN    std_logic;    
@@ -71,10 +58,10 @@ end component;
 	PORT (
 		clka  : IN  STD_LOGIC;
 		wea   : IN  STD_LOGIC_VECTOR(0 DOWNTO 0);
-		addra : IN  STD_LOGIC_VECTOR(18 DOWNTO 0);
+		addra : IN  STD_LOGIC_VECTOR(17 DOWNTO 0);
 		dina  : IN  STD_LOGIC_VECTOR(11 DOWNTO 0);
 		clkb  : IN  STD_LOGIC;
-		addrb : IN  STD_LOGIC_VECTOR(18 DOWNTO 0);
+		addrb : IN  STD_LOGIC_VECTOR(17 DOWNTO 0);
 		doutb : OUT STD_LOGIC_VECTOR(11 DOWNTO 0)
 	);
 	END COMPONENT;
@@ -85,7 +72,7 @@ end component;
 		vsync : IN std_logic;
 		href  : IN std_logic;
 		d     : IN std_logic_vector(7 downto 0);          
-		addr  : OUT std_logic_vector(18 downto 0);
+		addr  : OUT std_logic_vector(17 downto 0);
 		dout  : OUT std_logic_vector(11 downto 0);
 		we    : OUT std_logic
 		);
@@ -101,25 +88,21 @@ end component;
 		vga_hsync : OUT std_logic;
 		vga_vsync : OUT std_logic;
 		
-		frame_addr  : OUT std_logic_vector(18 downto 0);
+		frame_addr  : OUT std_logic_vector(17 downto 0);
 		frame_pixel : IN  std_logic_vector(11 downto 0)         
 		);
 	END COMPONENT;
 	
-	signal frame_addr      : std_logic_vector(18 downto 0);
+	signal frame_addr      : std_logic_vector(17 downto 0);
 	signal frame_pixel     : std_logic_vector(11 downto 0);
 
-	signal capture_addr    : std_logic_vector(18 downto 0);
+	signal capture_addr    : std_logic_vector(17 downto 0);
 	signal capture_data    : std_logic_vector(11 downto 0);
    signal capture_we      : std_logic_vector(0 downto 0);
 	signal resend          : std_logic;
 	signal config_finished : std_logic;
 	
 	signal clk_feedback  : std_logic;
-	signal clk50u        : std_logic;
-	signal clk50         : std_logic;
-	signal clk25u        : std_logic;
-	signal clk25         : std_logic;
 	signal buffered_pclk : std_logic;
 	
 begin
@@ -153,7 +136,7 @@ fb : blk_mem_gen_0
     doutb => frame_pixel
   );
   
-  led <= "0000000" & config_finished;
+  led <=  config_finished;
   
 capture: ov7670_capture PORT MAP(
 		pclk  => OV7670_PCLK,
@@ -175,13 +158,5 @@ controller: ov7670_controller PORT MAP(
 		reset => OV7670_RESET,
 		xclk  => OV7670_XCLK
 	);
-
-your_instance_name : clocking
-  port map
-   (-- Clock in ports
-    CLK_100 => CLK100,
-    -- Clock out ports
-    CLK_50 => CLK50,
-    CLK_25 => CLK25);
 
 end Behavioral;

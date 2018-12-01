@@ -16,7 +16,7 @@ entity vga is
 		vga_blue    : out STD_LOGIC_VECTOR(3 downto 0);
 		vga_hsync   : out STD_LOGIC;
 		vga_vsync   : out STD_LOGIC;
-		frame_addr  : out STD_LOGIC_VECTOR(18 downto 0);
+		frame_addr  : out STD_LOGIC_VECTOR(17 downto 0);
 		frame_pixel : in  STD_LOGIC_VECTOR(11 downto 0)
 	 );
 end vga;
@@ -38,7 +38,7 @@ architecture Behavioral of vga is
 
    signal hCounter : unsigned( 9 downto 0) := (others => '0');
    signal vCounter : unsigned( 9 downto 0) := (others => '0');
-	signal address  : unsigned(18 downto 0) := (others => '0');
+	signal address  : unsigned(17 downto 0) := (others => '0');
 	signal blank    : std_logic := '1';
 
 begin

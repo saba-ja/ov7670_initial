@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2.2 (lin64) Build 2348494 Mon Oct  1 18:25:39 MDT 2018
-| Date         : Fri Nov 30 14:59:08 2018
+| Date         : Sat Dec  1 13:55:02 2018
 | Host         : saba-VirtualBox running 64-bit Ubuntu 18.04.1 LTS
 | Command      : report_utilization -file blk_mem_gen_0_utilization_synth.rpt -pb blk_mem_gen_0_utilization_synth.pb
 | Design       : blk_mem_gen_0
@@ -30,14 +30,14 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| Slice LUTs*             |  365 |     0 |     53200 |  0.69 |
-|   LUT as Logic          |  365 |     0 |     53200 |  0.69 |
+| Slice LUTs*             |  190 |     0 |     53200 |  0.36 |
+|   LUT as Logic          |  190 |     0 |     53200 |  0.36 |
 |   LUT as Memory         |    0 |     0 |     17400 |  0.00 |
 | Slice Registers         |   14 |     0 |    106400 |  0.01 |
 |   Register as Flip Flop |   14 |     0 |    106400 |  0.01 |
 |   Register as Latch     |    0 |     0 |    106400 |  0.00 |
-| F7 Muxes                |   93 |     0 |     26600 |  0.35 |
-| F8 Muxes                |   36 |     0 |     13300 |  0.27 |
+| F7 Muxes                |   45 |     0 |     26600 |  0.17 |
+| F8 Muxes                |   18 |     0 |     13300 |  0.14 |
 +-------------------------+------+-------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
 
@@ -64,15 +64,15 @@ Table of Contents
 2. Memory
 ---------
 
-+-------------------+-------+-------+-----------+-------+
-|     Site Type     |  Used | Fixed | Available | Util% |
-+-------------------+-------+-------+-----------+-------+
-| Block RAM Tile    | 103.5 |     0 |       140 | 73.93 |
-|   RAMB36/FIFO*    |   103 |     0 |       140 | 73.57 |
-|     RAMB36E1 only |   103 |       |           |       |
-|   RAMB18          |     1 |     0 |       280 |  0.36 |
-|     RAMB18E1 only |     1 |       |           |       |
-+-------------------+-------+-------+-----------+-------+
++-------------------+------+-------+-----------+-------+
+|     Site Type     | Used | Fixed | Available | Util% |
++-------------------+------+-------+-----------+-------+
+| Block RAM Tile    |   52 |     0 |       140 | 37.14 |
+|   RAMB36/FIFO*    |   50 |     0 |       140 | 35.71 |
+|     RAMB36E1 only |   50 |       |           |       |
+|   RAMB18          |    4 |     0 |       280 |  1.43 |
+|     RAMB18E1 only |    4 |       |           |       |
++-------------------+------+-------+-----------+-------+
 * Note: Each Block RAM Tile only has one FIFO logic available and therefore can accommodate only one FIFO36E1 or one FIFO18E1. However, if a FIFO18E1 occupies a Block RAM Tile, that tile can still accommodate a RAMB18E1
 
 
@@ -148,15 +148,16 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| LUT6     |  187 |                 LUT |
-| LUT5     |  142 |                 LUT |
-| RAMB36E1 |  103 |        Block Memory |
-| MUXF7    |   93 |               MuxFx |
-| MUXF8    |   36 |               MuxFx |
-| LUT4     |   21 |                 LUT |
-| LUT3     |   15 |                 LUT |
+| LUT6     |  131 |                 LUT |
+| RAMB36E1 |   50 |        Block Memory |
+| MUXF7    |   45 |               MuxFx |
+| LUT5     |   43 |                 LUT |
+| MUXF8    |   18 |               MuxFx |
 | FDRE     |   14 |        Flop & Latch |
-| RAMB18E1 |    1 |        Block Memory |
+| LUT3     |    9 |                 LUT |
+| RAMB18E1 |    4 |        Block Memory |
+| LUT4     |    4 |                 LUT |
+| LUT2     |    3 |                 LUT |
 +----------+------+---------------------+
 
 

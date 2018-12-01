@@ -693,3 +693,2857 @@ selectCodeEditor("F5QMAYQILV7T6TF.xdc", 486, 150); // ce (w, ck)
 typeControlKey(null, null, 'z');
 // TclEventType: FILE_SET_CHANGE
 // [GUI Memory]: 106 MB (+1557kb) [00:52:12]
+// Elapsed time: 197 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 489, 63); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 176, 111); // ce (w, ck)
+// Elapsed time: 40 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 288, 102); // ce (w, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// PAResourceOtoP.PAViews_PROJECT_SUMMARY: Project Summary: close view
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // J
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, ck)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw (aE)
+// Elapsed time: 34 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ck): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 13 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "main_project_top"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 20 seconds
+dismissDialog("Add Sources"); // c (ck)
+// Tcl Message: close [ open /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/new/main_project_top.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/new/main_project_top.vhd 
+// I (ck): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,681 MB. GUI used memory: 46 MB. Current time: 12/1/18 11:45:59 AM PST
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// Elapsed time: 54 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 579, 66); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,705 MB. GUI used memory: 45 MB. Current time: 12/1/18 11:47:09 AM PST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 230, 121); // ce (w, ck)
+// Elapsed time: 38 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 4, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_COPY_IP, "Copy IP..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_COPY_IP
+// d (ck): Copy IP: addNotify
+// Elapsed time: 19 seconds
+setText(PAResourceAtoD.CopyIPHandler_DESTINATION_IP_NAME, "blk_mem_gen_1"); // X (Q, d)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (d)
+// 'b' command handler elapsed time: 19 seconds
+dismissDialog("Copy IP"); // d (ck)
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Copy IP : addNotify
+// Tcl Message: copy_ip -name blk_mem_gen_1 -dir /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip [get_ips  blk_mem_gen_0] 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7z020clg484-1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,738 MB. GUI used memory: 46 MB. Current time: 12/1/18 11:48:24 AM PST
+// [Engine Memory]: 1,745 MB (+3107kb) [00:58:14]
+// Elapsed time: 25 seconds
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (bx)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,782 MB. GUI used memory: 46 MB. Current time: 12/1/18 11:48:48 AM PST
+// [Engine Memory]: 1,890 MB (+60315kb) [00:58:42]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: copy_ip: Time (s): cpu = 00:00:11 ; elapsed = 00:00:35 . Memory (MB): peak = 7037.070 ; gain = 194.844 ; free physical = 6316 ; free virtual = 10294 
+// a (ck): Critical Messages: addNotify
+dismissDialog("Copy IP"); // bx (ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 8, false); // B (D, ck)
+// Elapsed time: 772 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 8, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // aa (aj, ck)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // aa (aj, ck)
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // aa (aj, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 216, 235); // ce (w, ck)
+// Elapsed time: 23 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 12, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 12, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 0); // k (j, ck)
+// Elapsed time: 72 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 113, 112); // ce (w, ck)
+// Elapsed time: 137 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,946 MB. GUI used memory: 54 MB. Current time: 12/1/18 12:06:29 PM PST
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 8, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+// Elapsed time: 75 seconds
+selectMenu(PAResourceQtoS.SrcMenu_IP_DOCUMENTATION, "IP Documentation"); // aa (aj, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE, "Re-customize IP..."); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aY (C, r)
+setText("Defines the PortA Write Width(DINA)", "12"); // z (aZ, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port B Options", 2); // aY (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Other Options", 3); // aY (C, r)
+selectCheckBox((HResource) null, "Load Init File", true); // g (m, r): TRUE
+selectCheckBox((HResource) null, "Load Init File", false); // g (m, r): FALSE
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // aY (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Basic", 0); // aY (C, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: DG_GRAPH_STALE
+dismissDialog("Re-customize IP"); // r (ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Load_Init_File {false}] [get_ips blk_mem_gen_1] 
+// TclEventType: FILE_SET_CHANGE
+// aI (ck): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (ck):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,985 MB. GUI used memory: 55 MB. Current time: 12/1/18 12:08:29 PM PST
+// TclEventType: DG_GRAPH_STALE
+// [Engine Memory]: 1,985 MB (+848kb) [01:18:18]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_1'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_1'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_1'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_1'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_1'... 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: catch { config_ip_cache -export [get_ips -all blk_mem_gen_1] } 
+// TclEventType: OOC_IP_CACHE_USED
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP blk_mem_gen_1, cache-ID = 7b27d7ada85207ba; cache size = 11.120 MB. 
+// TclEventType: PROJ_DESIGN_MODE_SET
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -no_script -sync -force -quiet 
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] 
+// Tcl Message: INFO: [Vivado 12-3453] The given sub-design is up-to-date, no action was taken.  If a run is still desired, use the '-force' option for the file:'/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci' 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATION_OF_OUTPUT_PRODUCTS_COMPLETED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("FZTEBUMILV7T646.vhd", 246, 257); // ce (w, ck)
+// Elapsed time: 137 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F5QMAYQILV7T6TF.xdc", 1); // k (j, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 137, 264); // ce (w, ck)
+// Elapsed time: 103 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 9, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 9, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("main_project_top.vhd", 24, 293); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 207, 159); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,018 MB. GUI used memory: 57 MB. Current time: 12/1/18 12:12:59 PM PST
+// Elapsed time: 31 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, blk_mem_gen_1 (blk_mem_gen_1.xci)]", 8, false, false, false, false, true, false); // B (D, ck) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ad (aj, ck)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aE (ck): Remove Sources: addNotify
+selectCheckBox(PAResourceQtoS.RemoveSourcesDialog_ALSO_DELETE, "Also delete the project local file/directory from disk", true); // g (Q, aE): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aE)
+dismissDialog("Remove Sources"); // aE (ck)
+// Tcl Message: export_ip_user_files -of_objects  [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: PROJ_DESIGN_MODE_SET
+// aE (ck): Remove Sources: addNotify
+// bx (aE):  Remove Sources : addNotify
+// Tcl Message: remove_files  /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_1/blk_mem_gen_1.xci 
+// Tcl Message: file delete -force /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_1 
+dismissDialog("Remove Sources"); // bx (aE)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (ck): Create and Package New IP: addNotify
+// Elapsed time: 14 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "ov7670_ip"); // X (Q)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,042 MB. GUI used memory: 60 MB. Current time: 12/1/18 12:14:14 PM PST
+// Elapsed time: 52 seconds
+setText(PAResourceItoN.NewIpWizard_DESCRIPTION_MY_NEW_AXI_IP, "IP for OV7670 Camera Module"); // X (Q)
+selectButton("CANCEL", "Cancel"); // JButton (j, Q)
+// 'q' command handler elapsed time: 79 seconds
+dismissDialog("Create and Package New IP"); // Q (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 0); // k (j, ck)
+// Elapsed time: 199 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), btn_debounce : debounce(Behavioral) (F5IR32HILV7T64J.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), btn_debounce : debounce(Behavioral) (F5IR32HILV7T64J.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 62 seconds
+selectCodeEditor("F5IR32HILV7T64J.vhd", 263, 243); // ce (w, ck)
+selectCodeEditor("F5IR32HILV7T64J.vhd", 577, 83); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectCodeEditor("F5IR32HILV7T64J.vhd", 211, 211); // ce (w, ck)
+selectCodeEditor("F5IR32HILV7T64J.vhd", 106, 68); // ce (w, ck)
+typeControlKey((HResource) null, "F5IR32HILV7T64J.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5IR32HILV7T64J.vhd", 'c'); // ce (w, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (ck): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// Elapsed time: 21 seconds
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// Elapsed time: 10 seconds
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "debounce"); // X (Q)
+// Elapsed time: 11 seconds
+setText(PAResourceItoN.NewIpWizard_DESCRIPTION_MY_NEW_AXI_IP, "IP for debounce"); // X (Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// Elapsed time: 10 seconds
+selectButton(PAResourceItoN.NewIpWizard_DELETE_SELECTED_INTERFACE, (String) null); // k (f, Q)
+// HOptionPane Error: 'At least one interface is required for the peripheral creation. (Error)'
+// Elapsed time: 10 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectButton("PAResourceItoN.NewIpWizard_AT_LEAST_ONE_INTERFACE_REQUIRED_OK", "OK"); // JButton (A, H)
+selectButton("BACK", "< Back"); // JButton (j, Q)
+selectButton("BACK", "< Back"); // JButton (j, Q)
+selectButton("CANCEL", "Cancel"); // JButton (j, Q)
+// 'q' command handler elapsed time: 72 seconds
+dismissDialog("Create and Package New IP"); // Q (ck)
+selectCodeEditor("F5IR32HILV7T64J.vhd", 278, 208); // ce (w, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (ck): Create and Package New IP: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectButton("CANCEL", "Cancel"); // JButton (j, Q)
+// 'q' command handler elapsed time: 13 seconds
+dismissDialog("Create and Package New IP"); // Q (ck)
+selectCodeEditor("F5IR32HILV7T64J.vhd", 343, 363); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 3, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 3, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 87 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), capture : ov7670_capture(Behavioral) (F6SJNRTILV7T642.vhd)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), capture : ov7670_capture(Behavioral) (F6SJNRTILV7T642.vhd)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 53 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), controller : ov7670_controller(Behavioral) (F0UU05JILV7T644.vhd)]", 6, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), controller : ov7670_controller(Behavioral) (F0UU05JILV7T644.vhd)]", 6, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 2,076 MB. GUI used memory: 61 MB. Current time: 12/1/18 12:24:19 PM PST
+// Elapsed time: 132 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), controller : ov7670_controller(Behavioral) (F0UU05JILV7T644.vhd), Inst_i2c_sender : i2c_sender(Behavioral) (FQTSFQ5ILV7T63Z.vhd)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), controller : ov7670_controller(Behavioral) (F0UU05JILV7T644.vhd), Inst_i2c_sender : i2c_sender(Behavioral) (FQTSFQ5ILV7T63Z.vhd)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 79 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), controller : ov7670_controller(Behavioral) (F0UU05JILV7T644.vhd), Inst_ov7670_registers : ov7670_registers(Behavioral) (FNTSDZZILV7T645.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), controller : ov7670_controller(Behavioral) (F0UU05JILV7T644.vhd), Inst_ov7670_registers : ov7670_registers(Behavioral) (FNTSDZZILV7T645.vhd)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// [Engine Memory]: 2,086 MB (+1490kb) [01:37:35]
+// Elapsed time: 50 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), your_instance_name : clocking(xilinx) (FLW9TWWILV7T64G.vhd)]", 9, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), your_instance_name : clocking(xilinx) (FLW9TWWILV7T64G.vhd)]", 9, false, false, false, false, false, true); // B (D, ck) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 2,106 MB. GUI used memory: 61 MB. Current time: 12/1/18 12:28:39 PM PST
+// Elapsed time: 113 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("FZTEBUMILV7T646.vhd", 3, 98); // ce (w, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 1, 96); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("main_project_top.vhd", 98, 54); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 89, 51); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("main_project_top.vhd", 132, 100); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,130 MB. GUI used memory: 61 MB. Current time: 12/1/18 12:31:04 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 41 seconds
+selectCodeEditor("main_project_top.vhd", 423, 218); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 61, 237); // ce (w, ck)
+// [GUI Memory]: 112 MB (+1046kb) [01:41:36]
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("main_project_top.vhd", 145, 247); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,167 MB. GUI used memory: 61 MB. Current time: 12/1/18 12:31:54 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectCodeEditor("main_project_top.vhd", 116, 441); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,183 MB. GUI used memory: 61 MB. Current time: 12/1/18 12:32:09 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 2,191 MB (+1146kb) [01:42:03]
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 16 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 109, 395); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("main_project_top.vhd", 55, 503); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 41, 232); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("main_project_top.vhd", 96, 579); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,215 MB. GUI used memory: 61 MB. Current time: 12/1/18 12:33:09 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectCodeEditor("main_project_top.vhd", 211, 155); // ce (w, ck)
+// Elapsed time: 86 seconds
+selectCodeEditor("main_project_top.vhd", 112, 370); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 119, 387); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 116, 394); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 119, 411); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 115, 276); // ce (w, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("main_project_top.vhd", 76, 370); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,247 MB. GUI used memory: 59 MB. Current time: 12/1/18 12:37:29 PM PST
+// Elapsed time: 214 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 0); // k (j, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 135, 391); // ce (w, ck)
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("main_project_top.vhd", 31, 542); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F5IR32HILV7T64J.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 2); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 0); // k (j, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("main_project_top.vhd", 52, 549); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Elapsed time: 17 seconds
+selectCodeEditor("main_project_top.vhd", 55, 176); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,280 MB. GUI used memory: 60 MB. Current time: 12/1/18 12:39:44 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 32, 563); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// [Engine Memory]: 2,302 MB (+1604kb) [01:49:40]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 2, 297); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("main_project_top.vhd", 210, 296); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 173, 306); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 158, 321); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 159, 339); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 160, 353); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 162, 372); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 163, 379); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 161, 413); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 162, 424); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 160, 456); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 160, 492); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 163, 507); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 160, 521); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 160, 533); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 161, 550); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 182, 576); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 132, 307); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 175, 306); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("main_project_top.vhd", 131, 322); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 150, 319); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("main_project_top.vhd", 137, 334); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 160, 337); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,355 MB. GUI used memory: 61 MB. Current time: 12/1/18 12:41:29 PM PST
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectCodeEditor("main_project_top.vhd", 167, 355); // ce (w, ck)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,387 MB. GUI used memory: 61 MB. Current time: 12/1/18 12:42:04 PM PST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// [Engine Memory]: 2,419 MB (+1845kb) [01:52:23]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,419 MB. GUI used memory: 59 MB. Current time: 12/1/18 12:42:34 PM PST
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,451 MB. GUI used memory: 59 MB. Current time: 12/1/18 12:42:54 PM PST
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("main_project_top.vhd", 104, 484); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 155, 491); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,483 MB. GUI used memory: 60 MB. Current time: 12/1/18 12:43:09 PM PST
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 117, 502); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 154, 506); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 109, 521); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 157, 523); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("main_project_top.vhd", 117, 534); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 156, 533); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,545 MB. GUI used memory: 60 MB. Current time: 12/1/18 12:43:34 PM PST
+// [Engine Memory]: 2,545 MB (+4997kb) [01:53:24]
+selectCodeEditor("main_project_top.vhd", 121, 546); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 154, 551); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,593 MB. GUI used memory: 60 MB. Current time: 12/1/18 12:43:54 PM PST
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 0); // k (j, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("main_project_top.vhd", 203, 249); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 150 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 397, 326); // ce (w, ck)
+// Elapsed time: 61 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 2); // k (j, ck)
+// Elapsed time: 17 seconds
+selectCodeEditor("main_project_top.vhd", 240, 370); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,617 MB. GUI used memory: 60 MB. Current time: 12/1/18 12:48:24 PM PST
+// Elapsed time: 27 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 12:48:39 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// Elapsed time: 52 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 26 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Synthesis Completed"); // ah (ck)
+// Elapsed time: 30 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 516, 307); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 411, 66); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 414, 142); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 455, 273); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 396, 275); // ce (w, ck)
+// Elapsed time: 36 seconds
+selectButton(PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, "details"); // h (cM, ck)
+// Synthesis Out-of-date Due to: show
+selectButton(PAResourceQtoS.StaleMoreAction_FORCE_UP_TO_DATE, "Force up-to-date"); // h (n, ResizableWindow)
+// Tcl Message: set_property needs_refresh false [get_runs synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs impl_1] 
+// Tcl Message: set_property needs_refresh false [get_runs blk_mem_gen_0_synth_1] 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 12:52:42 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 93 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "Run Implementation"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 12:54:18 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// Elapsed time: 17 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// Elapsed time: 18 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 390, 441); // ce (w, ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (ck): Implementation Failed: addNotify
+// Elapsed time: 73 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc:75]. ]", 7, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc;-;;-;16;-;line;-;75;-;;-;16;-;"); // ah (O, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 362, 157); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 408, 276); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 413, 277); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 381, 204); // ce (w, ck)
+// Elapsed time: 55 seconds
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 12:57:48 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// Elapsed time: 11 seconds
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // B (f, ck)
+// Elapsed time: 14 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 48 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec  1 12:59:03 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (ck): Implementation Failed: addNotify
+// Elapsed time: 112 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc:103]. ]", 2, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc;-;;-;16;-;line;-;103;-;;-;16;-;"); // ah (O, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 471, 320); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+// Elapsed time: 34 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "OV7670_PCLK_IBUF"); // l (aQ, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets OV7670_PCLK_1_IBUF] >. . 	OV7670_PCLK_1_IBUF_inst (IBUF.O) is locked to IOB_X0Y43. 	 and OV7670_PCLK_1_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y7. ]", 4, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets OV7670_PCLK_1_IBUF] >. . 	OV7670_PCLK_1_IBUF_inst (IBUF.O) is locked to IOB_X0Y43. 	 and OV7670_PCLK_1_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y7. ]", 4, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets OV7670_PCLK_1_IBUF] >. . 	OV7670_PCLK_1_IBUF_inst (IBUF.O) is locked to IOB_X0Y43. 	 and OV7670_PCLK_1_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y7. ]", 4, false, false, false, false, false, true); // ah (O, ck) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets OV7670_PCLK_1_IBUF] >. . 	OV7670_PCLK_1_IBUF_inst (IBUF.O) is locked to IOB_X0Y43. 	 and OV7670_PCLK_1_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y7. ]", 4, false, false, false, false, true, false); // ah (O, ck) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // aa (K, ck)
+// Elapsed time: 31 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 153, 309); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+// Elapsed time: 38 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-574] Poor placement for routing between an IO pin and BUFG. If this sub optimal condition is acceptable for this design, you may use the CLOCK_DEDICATED_ROUTE constraint in the .xdc file to demote this message to a WARNING. However, the use of this override is highly discouraged. These examples can be used directly in the .xdc file to override this clock rule.. 	< set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets OV7670_PCLK_1_IBUF] >. . 	OV7670_PCLK_1_IBUF_inst (IBUF.O) is locked to IOB_X0Y43. 	 and OV7670_PCLK_1_IBUF_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y7. ]", 4, false, false, false, false, true, false); // ah (O, ck) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // aa (K, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 176, 187); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 13:03:20 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 76 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 13:04:37 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// Elapsed time: 25 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 436, 262); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 27 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "PCLK"); // l (aQ, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc:103]. ]", 2, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc;-;;-;16;-;line;-;103;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 12 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 435, 266); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// aS (ck): Cancel Implementation: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (aS)
+dismissDialog("Cancel Implementation"); // aS (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// HOptionPane Warning: 'Implementation is currently running. OK to reset anyway? (Run Synthesis)'
+dismissDialog("Run Synthesis"); // A (ck)
+// bx (ck):  Resetting Runs : addNotify
+selectButton("PAResourceAtoD.DeleteRunsDialog_THERE_SOME_JOBS_THAT_APPEAR_TOBE_Yes", "Yes"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 13:06:11 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 76 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 13:07:28 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 123 seconds
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // B (f, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Design Initialization, [Common 17-55] 'set_property' expects at least one object. [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc:104]. ]", 2, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc;-;;-;16;-;line;-;104;-;;-;16;-;"); // ah (O, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 22 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+dismissDialog("Implementation Completed"); // ah (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec  1 13:10:04 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+// bx (ck):  Generate Bitstream : addNotify
+dismissDialog("Generate Bitstream"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 105 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1); // B (D, ck)
+// ah (ck): Bitstream Generation Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager]", 21, true); // u (O, ck) - Node
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 INFO: [Labtools 27-2222] Launching hw_server... INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2.2   **** Build date : Oct  1 2018-18:41:02     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// [GUI Memory]: 124 MB (+5908kb) [02:21:57]
+// Elapsed time: 54 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+// Elapsed time: 16 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Open Hardware Manager, Open Target]", 22, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HW_TARGET
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// Tcl Message: disconnect_hw_server localhost:3121 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// bx (ck):  Auto Connect : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210248774280 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/main_project_top.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: current_hw_device [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/main_project_top.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 40 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 10 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // V (q, ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // V (q, ck)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // V (q, ck)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_FILESET_WINDOW, "Sources"); // ad (ck)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // V (q, ck)
+// Run Command: PAResourceCommand.PACommandNames_FILESET_WINDOW
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("main_project_top.vhd", 21, 289); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 15, 292); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 25, 285); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 29, 8); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 26 seconds
+selectCodeEditor("main_project_top.vhd", 295, 245); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 40 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 468, 210); // ce (w, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 74, 148); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 58 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 472, 191); // ce (w, ck)
+// Elapsed time: 16 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 374, 259); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 13, 274); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,597 MB. GUI used memory: 67 MB. Current time: 12/1/18 1:18:25 PM PST
+// Elapsed time: 16 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 504, 277); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 1); // k (j, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,645 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:19:20 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 2,677 MB (+4441kb) [02:29:16]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 33 seconds
+selectCodeEditor("main_project_top.vhd", 411, 98); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 253, 264); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 77, 263); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F5QMAYQILV7T6TF.xdc", 2); // k (j, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,708 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:19:50 PM PST
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 401, 246); // ce (w, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 307, 161); // ce (w, ck)
+// Elapsed time: 45 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 455, 253); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FLW9TWWILV7T64G.vhd", 0); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 1); // k (j, ck)
+// Elapsed time: 27 seconds
+selectCodeEditor("main_project_top.vhd", 55, 83); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 115, 204); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 1, 40); // ce (w, ck)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("main_project_top.vhd", 96, 38); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,741 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:22:35 PM PST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 23 seconds
+selectCodeEditor("main_project_top.vhd", 6, 282); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("main_project_top.vhd", 281, 217); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 2,800 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:23:05 PM PST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 2,816 MB (+6246kb) [02:32:56]
+selectCodeEditor("main_project_top.vhd", 13, 65); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("main_project_top.vhd", 96, 84); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 2,832 MB. GUI used memory: 66 MB. Current time: 12/1/18 1:23:35 PM PST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,889 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:23:50 PM PST
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 253, 87); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,913 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:24:15 PM PST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 21 seconds
+selectCodeEditor("main_project_top.vhd", 159, 80); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 170, 189); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 218, 190); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey(null, null, 'z');
+// Elapsed time: 10 seconds
+selectCodeEditor("main_project_top.vhd", 297, 189); // ce (w, ck)
+// Elapsed time: 55 seconds
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 50, 203); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 2,961 MB (+3623kb) [02:35:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 2,961 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:26:05 PM PST
+selectCodeEditor("main_project_top.vhd", 218, 234); // ce (w, ck)
+// Elapsed time: 16 seconds
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 33 seconds
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 310, 245); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 2,993 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:27:10 PM PST
+selectCodeEditor("main_project_top.vhd", 217, 192); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 69, 291); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,017 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:28:05 PM PST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 52 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 11 seconds
+selectCodeEditor("main_project_top.vhd", 320, 203); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 14, 318); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,057 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:28:50 PM PST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 3,113 MB (+4090kb) [02:39:13]
+// HMemoryUtils.trashcanNow. Engine heap size: 3,113 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:29:25 PM PST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 44 seconds
+selectCodeEditor("main_project_top.vhd", 288, 266); // ce (w, ck)
+// Elapsed time: 12 seconds
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,137 MB. GUI used memory: 66 MB. Current time: 12/1/18 1:29:45 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 15 seconds
+selectCodeEditor("main_project_top.vhd", 268, 150); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 3,177 MB. GUI used memory: 65 MB. Current time: 12/1/18 1:30:00 PM PST
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 93 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 13:31:30 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 84 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION, "Run Implementation"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 13:32:56 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (ck): Implementation Failed: addNotify
+// Elapsed time: 59 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-3352] multi-driven net LED_OBUF[0] with 1st driver pin 'i_312/O' [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/F0UU05JILV7T644.vhd:57]. ]", 2, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/F0UU05JILV7T644.vhd;-;;-;16;-;line;-;57;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 30 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Shape Builder 18-119] Failed to create I/OLOGIC Route Through shape for instance cam2/your_instance_name/clkin1_buf. Found overlapping instances within the shape: cam1/your_instance_name/clkin1_buf and cam2/your_instance_name/clkin1_buf.. ]", 3, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "inst;-;cam2/your_instance_name/clkin1_buf;-;;-;7;-;"); // ah (O, ck)
+// Elapsed time: 10 seconds
+selectButton("PAResourceItoN.MsgUtils_TO_SELECT_THIS_OBJECT_YOU_MUST_OPEN_Yes", "Yes"); // JButton (A, G)
+// bx (ck):  Open Synthesized Design : addNotify
+// Tcl Message: open_run synth_1 -name synth_1 
+// Tcl Message: Design is defaulting to impl run constrset: constrs_1 Design is defaulting to synth run part: xc7z020clg484-1 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: PLACEDB_MODIFIY_PRE
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 3,298 MB. GUI used memory: 66 MB. Current time: 12/1/18 1:34:50 PM PST
+// [Engine Memory]: 3,299 MB (+32630kb) [02:44:39]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Xgd.load filename: /opt/Xilinx/Vivado/2018.2/data/parts/xilinx/zynq/devint/zynq/xc7z020/xc7z020.xgd; ZipEntry: xc7z020_detail.xgd elapsed time: 0.8s
+// Device: addNotify
+// DeviceView Instantiated
+// Tcl Message: INFO: [Project 1-454] Reading design checkpoint '/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.dcp' for cell 'cam1/fb' INFO: [Netlist 29-17] Analyzing 525 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2018.2.2 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc] Finished Parsing XDC File [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/constrs_1/imports/Downloads/F5QMAYQILV7T6TF.xdc] 
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Device view-level: 0.0
+// Tcl Message: open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 8576.500 ; gain = 234.738 ; free physical = 5819 ; free virtual = 9801 
+// HOptionPane Warning: 'Cannot find cell. (Select Object)'
+dismissDialog("Open Synthesized Design"); // bx (ck)
+selectButton("PAResourceItoN.MsgUtils_CANNOT_FIND_OBJECT_OK", "OK"); // JButton (A, G)
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Device_zoom_in"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Device view-level: 0.6
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 355638, 98342); // D (I, ck)
+// Device select: 'I/O Bank - I/O Bank 0'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 575, 159, 659, 421); // U (k, ck)
+// PAPropertyPanels.initPanels (I/O Bank 0) elapsed time: 0.3s
+selectGraphicalView(PAResourceOtoP.PAViews_DEVICE, 355638, 98342, false, false, false, false, true); // D (I, ck) - Double Click
+// Device select: 'I/O Bank - I/O Bank 0'
+selectView(PAResourceOtoP.PAViews_DEVICE, "Device", 575, 159, 659, 421); // U (k, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,463 MB. GUI used memory: 101 MB. Current time: 12/1/18 1:35:08 PM PST
+// PAPropertyPanels.initPanels (Tile: MONITOR_BOT_PELE1_X123Y131) elapsed time: 0.3s
+// [Engine Memory]: 3,470 MB (+5500kb) [02:44:58]
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Device_zoom_in"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Device view-level: 1.2
+selectButton(PAResourceCommand.PACommandNames_ZOOM_IN, "Device_zoom_in"); // B (f, ck)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_IN
+// Device view-level: 1.8
+// HMemoryUtils.trashcanNow. Engine heap size: 3,515 MB. GUI used memory: 103 MB. Current time: 12/1/18 1:35:14 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,515 MB. GUI used memory: 102 MB. Current time: 12/1/18 1:35:15 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,516 MB. GUI used memory: 102 MB. Current time: 12/1/18 1:35:16 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,533 MB. GUI used memory: 122 MB. Current time: 12/1/18 1:35:17 PM PST
+// HMemoryUtils.trashcanNow. Engine heap size: 3,533 MB. GUI used memory: 102 MB. Current time: 12/1/18 1:35:17 PM PST
+// Elapsed time: 12 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ck)
+// [Engine Memory]: 3,782 MB (+145910kb) [02:45:17]
+// RouteApi::initDelayMediator elapsed time: 34.7s
+// RouteApi: Init Delay Mediator Swing Worker Finished
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 2, true); // B (D, ck) - Node
+// [GUI Memory]: 134 MB (+4094kb) [02:45:20]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 31 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ck)
+// Elapsed time: 69 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 76, 108); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "LED"); // l (aQ, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 407, 201); // ce (w, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 265, 157); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 403, 202); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 142 MB (+1111kb) [02:47:37]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("FZTEBUMILV7T646.vhd", 141, 188); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true); // B (D, ck) - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 3,798 MB. GUI used memory: 103 MB. Current time: 12/1/18 1:38:01 PM PST
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 12 seconds
+selectCodeEditor("main_project_top.vhd", 275, 204); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 149 MB (+83kb) [02:48:10]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 20 seconds
+selectCodeEditor("main_project_top.vhd", 188, 170); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 190, 202); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 3,822 MB. GUI used memory: 103 MB. Current time: 12/1/18 1:38:46 PM PST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Shape Builder 18-119] Failed to create I/OLOGIC Route Through shape for instance cam2/your_instance_name/clkin1_buf. Found overlapping instances within the shape: cam1/your_instance_name/clkin1_buf and cam2/your_instance_name/clkin1_buf.. ]", 3, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Shape Builder 18-119] Failed to create I/OLOGIC Route Through shape for instance cam2/your_instance_name/clkin1_buf. Found overlapping instances within the shape: cam1/your_instance_name/clkin1_buf and cam2/your_instance_name/clkin1_buf.. ]", 3, false, false, false, false, true, false); // ah (O, ck) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // aa (K, ck)
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // aa (K, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Shape Builder 18-119] Failed to create I/OLOGIC Route Through shape for instance cam2/your_instance_name/clkin1_buf. Found overlapping instances within the shape: cam1/your_instance_name/clkin1_buf and cam2/your_instance_name/clkin1_buf.. ]", 3, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "inst;-;cam2/your_instance_name/clkin1_buf;-;;-;7;-;"); // ah (O, ck)
+// HOptionPane Warning: 'Cannot find cell. (Select Object)'
+selectButton("PAResourceItoN.MsgUtils_CANNOT_FIND_OBJECT_OK", "OK"); // JButton (A, G)
+// Elapsed time: 77 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1); // B (D, ck)
+selectCodeEditor("main_project_top.vhd", 83, 189); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("FZTEBUMILV7T646.vhd", 125, 171); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,846 MB. GUI used memory: 103 MB. Current time: 12/1/18 1:40:51 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 45 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 13:41:20 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// [GUI Memory]: 157 MB (+502kb) [02:51:18]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), clock_inst : clocking(xilinx) (FLW9TWWILV7T64G.vhd)]", 8, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), clock_inst : clocking(xilinx) (FLW9TWWILV7T64G.vhd)]", 8, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 53 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F5QMAYQILV7T6TF.xdc", 4); // k (j, ck)
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 13:42:46 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 6); // k (j, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 694, 68); // ce (w, ck)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F0UU05JILV7T644.vhd", 5); // k (j, ck)
+// Elapsed time: 11 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, ck): TRUE
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 70 seconds
+selectCodeEditor("F0UU05JILV7T644.vhd", 423, 231); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F5QMAYQILV7T6TF.xdc", 4); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ck)
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // J
+closeView(PAResourceOtoP.PAViews_DEVICE, "Device"); // U
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (ay, ck)
+closeTask("Synthesis", "Synthesized Design", "DesignTask.NETLIST_PLANNING");
+// A (ck): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: DESIGN_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,864 MB. GUI used memory: 97 MB. Current time: 12/1/18 1:44:59 PM PST
+// Engine heap size: 3,864 MB. GUI used memory: 98 MB. Current time: 12/1/18 1:44:59 PM PST
+// TclEventType: CURR_DESIGN_SET
+// TclEventType: DESIGN_CLOSE
+// Tcl Message: close_design 
+dismissDialog("Confirm Close"); // A (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Implementation Failed: addNotify
+// Elapsed time: 66 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (ck)
+// Elapsed time: 15 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Shape Builder 18-119] Failed to create I/OLOGIC Route Through shape for instance cam2/clock_inst/clkin1_buf. Found overlapping instances within the shape: cam1/clock_inst/clkin1_buf and cam2/clock_inst/clkin1_buf.. ]", 2, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Shape Builder 18-119] Failed to create I/OLOGIC Route Through shape for instance cam2/clock_inst/clkin1_buf. Found overlapping instances within the shape: cam1/clock_inst/clkin1_buf and cam2/clock_inst/clkin1_buf.. ]", 2, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Shape Builder 18-119] Failed to create I/OLOGIC Route Through shape for instance cam2/clock_inst/clkin1_buf. Found overlapping instances within the shape: cam1/clock_inst/clkin1_buf and cam2/clock_inst/clkin1_buf.. ]", 2, false, false, false, false, false, true); // ah (O, ck) - Double Click
+// Elapsed time: 18 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-640] Place Check : This design requires more RAMB36/FIFO cells than are available in the target device. This design requires 206 of such cell types but only 140 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device.. ]", 5, true); // ah (O, ck) - Node
+// Elapsed time: 173 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), fb : blk_mem_gen_0 (blk_mem_gen_0.xci)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// r (ck): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // aY (C, r)
+// Elapsed time: 75 seconds
+setText("Write Depth", "153600"); // z (aZ, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.Write_Depth_A {153600}] [get_ips blk_mem_gen_0] 
+// aI (ck): Generate Output Products: addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (ck):  Managing Output Products : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: generate_target all [get_files  /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Miscellaneous' target for IP 'blk_mem_gen_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'blk_mem_gen_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all blk_mem_gen_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/blk_mem_gen_0/blk_mem_gen_0.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run blk_mem_gen_0_synth_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 blk_mem_gen_0_synth_1 
+// Tcl Message: [Sat Dec  1 13:51:00 2018] Launched blk_mem_gen_0_synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/blk_mem_gen_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 3,893 MB. GUI used memory: 77 MB. Current time: 12/1/18 1:51:01 PM PST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("F0UU05JILV7T644.vhd", 36, 235); // ce (w, ck)
+// Elapsed time: 27 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 63 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 148, 293); // ce (w, ck)
+// Elapsed time: 79 seconds
+maximizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw (aE, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 119 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, [Place 30-640] Place Check : This design requires more RAMB36/FIFO cells than are available in the target device. This design requires 206 of such cell types but only 140 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device.. ]", 5, true); // ah (O, ck) - Node
+// Elapsed time: 47 seconds
+selectButton(PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, "details"); // h (cM, ck)
+// Synthesis and Implementation Out-of-date Due to: show
+selectButton(PAResourceQtoS.StaleMoreAction_FORCE_UP_TO_DATE, "Force up-to-date"); // h (n, ResizableWindow)
+// Tcl Message: set_property needs_refresh false [get_runs synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs impl_1] 
+// Tcl Message: set_property needs_refresh false [get_runs blk_mem_gen_0_synth_1] 
+// Elapsed time: 14 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 381, 205); // ce (w, ck)
+// Elapsed time: 21 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 289, 129); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,926 MB. GUI used memory: 82 MB. Current time: 12/1/18 1:58:31 PM PST
+// Elapsed time: 85 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 36, 444); // ce (w, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("main_project_top.vhd", 82, 167); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 3); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 1); // k (j, ck)
+selectCodeEditor("main_project_top.vhd", 28, 299); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 3); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 3,958 MB. GUI used memory: 81 MB. Current time: 12/1/18 1:59:46 PM PST
+selectCodeEditor("FZTEBUMILV7T646.vhd", 150, 518); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 1); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// [Engine Memory]: 3,974 MB (+2927kb) [03:09:44]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("main_project_top.vhd", 38, 39); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 3,990 MB. GUI used memory: 82 MB. Current time: 12/1/18 2:00:01 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectCodeEditor("main_project_top.vhd", 10, 373); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 24 seconds
+selectCodeEditor("main_project_top.vhd", 263, 379); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,054 MB. GUI used memory: 81 MB. Current time: 12/1/18 2:00:56 PM PST
+// Elapsed time: 11 seconds
+selectCodeEditor("main_project_top.vhd", 159, 248); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 146, 372); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 3); // k (j, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 269, 188); // ce (w, ck)
+// Elapsed time: 10 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 208, 65); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,086 MB. GUI used memory: 81 MB. Current time: 12/1/18 2:01:56 PM PST
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 1); // k (j, ck)
+selectCodeEditor("main_project_top.vhd", 285, 248); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("main_project_top.vhd", 111, 246); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 41 seconds
+selectCodeEditor("main_project_top.vhd", 161, 233); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 169, 261); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("main_project_top.vhd", 246, 264); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 94, 277); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,118 MB. GUI used memory: 81 MB. Current time: 12/1/18 2:03:16 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 13 seconds
+selectCodeEditor("main_project_top.vhd", 233, 293); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 197, 365); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("main_project_top.vhd", 0, 387); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,150 MB. GUI used memory: 138 MB. Current time: 12/1/18 2:03:40 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FZTEBUMILV7T646.vhd", 3); // k (j, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 14:04:01 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 25 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-549] port width mismatch for port 'addra': port width = 18, actual width = 19 [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd:127]. ]", 2, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd;-;;-;16;-;line;-;127;-;;-;16;-;"); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-549] port width mismatch for port 'addra': port width = 18, actual width = 19 [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd:127]. ]", 2, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd;-;;-;16;-;line;-;127;-;;-;16;-;"); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-549] port width mismatch for port 'addra': port width = 18, actual width = 19 [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd:127]. ]", 2, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd;-;;-;16;-;line;-;127;-;;-;16;-;"); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-285] failed synthesizing module 'ov7670_top' [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd:34]. ]", 3, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd;-;;-;16;-;line;-;34;-;;-;16;-;"); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-285] failed synthesizing module 'ov7670_top' [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd:34]. ]", 3, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd;-;;-;16;-;line;-;34;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 13 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("main_project_top.vhd", 182, 246); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 183, 231); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,174 MB (+1073kb) [03:15:23]
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,185 MB. GUI used memory: 81 MB. Current time: 12/1/18 2:05:36 PM PST
+// Elapsed time: 11 seconds
+selectCodeEditor("main_project_top.vhd", 156, 85); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 77 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-549] port width mismatch for port 'addra': port width = 18, actual width = 19 [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd:127]. ]", 2, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd;-;;-;16;-;line;-;127;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 106 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 130, 218); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "blk_mem_gen_0"); // l (aQ, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 275, 82); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-549] port width mismatch for port 'addra': port width = 18, actual width = 19 [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd:127]. ]", 2, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd;-;;-;16;-;line;-;127;-;;-;16;-;"); // ah (O, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 173, 220); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "capture_addr", true); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "capture_addr"); // l (aQ, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 335, 157); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,220 MB. GUI used memory: 81 MB. Current time: 12/1/18 2:09:51 PM PST
+// Elapsed time: 18 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 316, 124); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("FZTEBUMILV7T646.vhd", 271, 202); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,252 MB. GUI used memory: 82 MB. Current time: 12/1/18 2:10:16 PM PST
+// Elapsed time: 44 seconds
+selectCodeEditor("FZTEBUMILV7T646.vhd", 173, 115, true, true, false, true, false); // ce (w, ck) - Shift Key - Control Key - Popup Trigger
+selectCodeEditor("FZTEBUMILV7T646.vhd", 148, 113); // ce (w, ck)
+// Elapsed time: 32 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd)]", 3); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), capture : ov7670_capture(Behavioral) (F6SJNRTILV7T642.vhd)]", 7, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), capture : ov7670_capture(Behavioral) (F6SJNRTILV7T642.vhd)]", 7, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("F6SJNRTILV7T642.vhd", 309, 84); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+selectCodeEditor("F6SJNRTILV7T642.vhd", 306, 22); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,284 MB. GUI used memory: 82 MB. Current time: 12/1/18 2:11:46 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 21 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr", true); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), cam1 : ov7670_top(Behavioral) (FZTEBUMILV7T646.vhd), Inst_vga : vga(Behavioral) (FN0FBA2ILV7T649.vhd)]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("FN0FBA2ILV7T649.vhd", 315, 230); // ce (w, ck)
+selectCodeEditor("FN0FBA2ILV7T649.vhd", 125, 232); // ce (w, ck)
+typeControlKey((HResource) null, "FN0FBA2ILV7T649.vhd", 'c'); // ce (w, ck)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "frame_addr", true); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "frame_addr"); // l (aQ, ck)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr", true); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "addr"); // l (aQ, ck)
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, ck)
+selectButton(PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, "details"); // h (cM, ck)
+// Synthesis Out-of-date Due to: show
+selectButton(PAResourceQtoS.StaleMoreAction_FORCE_UP_TO_DATE, "Force up-to-date"); // h (n, ResizableWindow)
+// Tcl Message: set_property needs_refresh false [get_runs synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs impl_1] 
+// Tcl Message: set_property needs_refresh false [get_runs blk_mem_gen_0_synth_1] 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// aj (ck): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (aj)
+// bx (ck):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bx (ck):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // aj (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: RUN_MODIFY
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec  1 14:12:59 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 25 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-690] width mismatch in assignment; target has 18 bits, source has 19 bits [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FN0FBA2ILV7T649.vhd:45]. ]", 2, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FN0FBA2ILV7T649.vhd;-;;-;16;-;line;-;45;-;;-;16;-;"); // ah (O, ck)
+selectCodeEditor("FN0FBA2ILV7T649.vhd", 230, 186); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-285] failed synthesizing module 'vga' [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FN0FBA2ILV7T649.vhd:24]. ]", 3, true); // ah (O, ck) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FN0FBA2ILV7T649.vhd;-;;-;16;-;line;-;24;-;;-;16;-;"); // ah (O, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,332 MB. GUI used memory: 83 MB. Current time: 12/1/18 2:13:41 PM PST
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-690] width mismatch in assignment; target has 18 bits, source has 19 bits [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FN0FBA2ILV7T649.vhd:45]. ]", 2, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FN0FBA2ILV7T649.vhd;-;;-;16;-;line;-;45;-;;-;16;-;"); // ah (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 14:14:00 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_FAILED
+// ah (ck): Synthesis Failed: addNotify
+// Elapsed time: 22 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, synth_1, [Synth 8-549] port width mismatch for port 'addrb': port width = 18, actual width = 19 [/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd:127]. ]", 2, false); // ah (O, ck)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;/home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/imports/Downloads/FZTEBUMILV7T646.vhd;-;;-;16;-;line;-;127;-;;-;16;-;"); // ah (O, ck)
+// Elapsed time: 26 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "fb"); // l (aQ, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 129, 158); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "FZTEBUMILV7T646.vhd", 'c'); // ce (w, ck)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "blk_mem_gen_0", true); // l (aQ, ck)
+selectCodeEditor("FZTEBUMILV7T646.vhd", 267, 122); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 14:15:07 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 84 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sat Dec  1 14:16:33 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_FAILED
+// ah (ck): Implementation Failed: addNotify
+// Elapsed time: 112 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Implementation Failed"); // ah (ck)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, DRC, Netlist, Instance, Required Pin, MMCM_ADV, [DRC REQP-123] connects_CLKINSEL_VCC_connects_CLKIN1_ACTIVE: clock_inst/mmcm_adv_inst: The MMCME2_ADV with CLKINSEL tied high requires the CLKIN1 pin to be active.. ]", 7, false); // ah (O, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, DRC, Netlist, Instance, Required Pin, MMCM_ADV, [DRC REQP-123] connects_CLKINSEL_VCC_connects_CLKIN1_ACTIVE: clock_inst/mmcm_adv_inst: The MMCME2_ADV with CLKINSEL tied high requires the CLKIN1 pin to be active.. ]", 7, false, false, false, false, false, true); // ah (O, ck) - Double Click
+// Elapsed time: 68 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, ck): TRUE
+// Elapsed time: 18 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 12, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 12, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 362, 10); // ce (w, ck)
+// Elapsed time: 69 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 6, "Clocking Wizard", 0, false); // O (O, ck)
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "clk"); // OverlayTextField (P, ck)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 6); // O (O, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Clocking Wizard ; AXI4 ; Production ; Included ; xilinx.com:ip:clk_wiz:6.0", 6, "Clocking Wizard", 0, false, false, false, false, false, true); // O (O, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l (ck):  Customize IP : addNotify
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// r (ck): Customize IP: addNotify
+dismissDialog("Customize IP"); // l (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,352 MB. GUI used memory: 104 MB. Current time: 12/1/18 2:21:31 PM PST
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cJ (C, r)
+// Elapsed time: 14 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cJ (C, r)
+selectCheckBox((HResource) null, "clk_out2", true); // g (bB, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 10 seconds
+setText("CLKOUT2 REQUESTED OUT FREQ", "50.000"); // z (cK)
+selectCheckBox((HResource) null, "clk_out3", true); // g (bB, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+setText("CLKOUT3 REQUESTED OUT FREQ", "25.000"); // z (cK)
+selectCheckBox((HResource) null, "clk_out1", false); // g (bB, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "clk_out1", true); // g (bB, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "clk_out2", true); // g (bB, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "clk_out3", true); // g (bB, r): TRUE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Port Renaming", 3); // cJ (C, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "MMCM Settings", 4); // cJ (C, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Summary", 5); // cJ (C, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+// TclEventType: CREATE_IP_CORE
+dismissDialog("Customize IP"); // r (ck)
+// bx (ck):  Customize IP : addNotify
+// Tcl Message: create_ip -name clk_wiz -vendor xilinx.com -library ip -version 6.0 -module_name clk_wiz_0 
+// TclEventType: REPORT_IP_STATUS_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.CLKOUT1_USED {true} CONFIG.CLK_IN1_BOARD_INTERFACE {sys_clock} CONFIG.CLKOUT2_USED {true} CONFIG.CLKOUT3_USED {true} CONFIG.CLKOUT2_REQUESTED_OUT_FREQ {50.000} CONFIG.CLKOUT3_REQUESTED_OUT_FREQ {25.000} CONFIG.MMCM_DIVCLK_DIVIDE {1} CONFIG.MMCM_CLKOUT1_DIVIDE {20} CONFIG.MMCM_CLKOUT2_DIVIDE {40} CONFIG.NUM_OUT_CLKS {3} CONFIG.CLKOUT2_JITTER {151.636} CONFIG.CLKOUT2_PHASE_ERROR {98.575} CONFIG.CLKOUT3_JITTER {175.402} CONFIG.CLKOUT3_PHASE_ERROR {98.575}] [get_ips clk_wiz_0] 
+// Tcl Message: generate_target {instantiation_template} [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... 
+// TclEventType: FILE_SET_CHANGE
+// aI (ck): Generate Output Products: addNotify
+dismissDialog("Customize IP"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (ck):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'... 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,378 MB. GUI used memory: 99 MB. Current time: 12/1/18 2:22:46 PM PST
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all clk_wiz_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet 
+// TclEventType: FILE_SET_NEW
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_ADD
+// Tcl Message: create_ip_run [get_files -of_objects [get_fileset sources_1] /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs -jobs 4 clk_wiz_0_synth_1 
+// Tcl Message: [Sat Dec  1 14:22:47 2018] Launched clk_wiz_0_synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/clk_wiz_0_synth_1/runme.log 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 4,402 MB (+20177kb) [03:32:43]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (ck):  Re-customize IP : addNotify
+// r (ck): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (ck)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template]", 3); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("clk_wiz_0.vho", 107, 235); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ck)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("main_project_top.vhd", 109, 259); // ce (w, ck)
+selectButton(PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, "details"); // h (cM, ck)
+// Synthesis and Implementation Out-of-date Due to: show
+selectButton(PAResourceQtoS.StaleMoreAction_FORCE_UP_TO_DATE, "Force up-to-date"); // h (n, ResizableWindow)
+// Tcl Message: set_property needs_refresh false [get_runs synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs impl_1] 
+// Tcl Message: set_property needs_refresh false [get_runs blk_mem_gen_0_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs clk_wiz_0_synth_1] 
+selectCodeEditor("main_project_top.vhd", 110, 276); // ce (w, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 4,439 MB. GUI used memory: 110 MB. Current time: 12/1/18 2:24:12 PM PST
+selectCodeEditor("main_project_top.vhd", 110, 96); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 137, 186); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 106, 187); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 35, 102); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 2, 64); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,455 MB. GUI used memory: 109 MB. Current time: 12/1/18 2:24:46 PM PST
+// Elapsed time: 36 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("clk_wiz_0.vho", 36, 264); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+selectCodeEditor("main_project_top.vhd", 95, 262); // ce (w, ck)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 70, 8); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 124, 220); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 219, 186); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("main_project_top.vhd", 228, 142); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectCodeEditor("main_project_top.vhd", 250, 154); // ce (w, ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("main_project_top.vhd", 231, 141); // ce (w, ck)
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 4,487 MB. GUI used memory: 110 MB. Current time: 12/1/18 2:25:56 PM PST
+// Elapsed time: 25 seconds
+selectCodeEditor("main_project_top.vhd", 160, 189); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 156, 188); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), clock_inst : clk_wiz_0 (clk_wiz_0.xci)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd), clock_inst : clk_wiz_0 (clk_wiz_0.xci)]", 2, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (ck):  Re-customize IP : addNotify
+// r (ck): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (ck)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cJ (C, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cJ (C, r)
+selectCheckBox((HResource) null, "locked", false); // g (bB, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+selectCheckBox((HResource) null, "reset", false); // g (bB, r): FALSE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PACKAGER_OBJECT_ADD
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILESET_UPDATE_IP
+// Tcl Message: set_property -dict [list CONFIG.USE_LOCKED {false} CONFIG.USE_RESET {false}] [get_ips clk_wiz_0] 
+// aI (ck): Generate Output Products: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+// bx (ck):  Managing Output Products : addNotify
+// Tcl Message: generate_target all [get_files  /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Instantiation Template' target for IP 'clk_wiz_0'... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Synthesis' target for IP 'clk_wiz_0'... 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Simulation' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Implementation' target for IP 'clk_wiz_0'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'clk_wiz_0'... 
+// Tcl Message: catch { config_ip_cache -export [get_ips -all clk_wiz_0] } 
+// Tcl Message: export_ip_user_files -of_objects [get_files /home/saba/Documents/workstation4_image_processing/project_1/project_1.srcs/sources_1/ip/clk_wiz_0/clk_wiz_0.xci] -no_script -sync -force -quiet 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run clk_wiz_0_synth_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs -jobs 4 clk_wiz_0_synth_1 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec  1 14:28:01 2018] Launched clk_wiz_0_synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/clk_wiz_0_synth_1/runme.log 
+// HMemoryUtils.trashcanNow. Engine heap size: 4,519 MB. GUI used memory: 121 MB. Current time: 12/1/18 2:28:01 PM PST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Elapsed time: 11 seconds
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_OUT_OF_CONTEXT_MODULE_RUNS_WERE_LAUNCHED_OK", "OK"); // JButton (A, G)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 37 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, ck)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 38 seconds
+selectCodeEditor("main_project_top.vhd", 463, 169); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F5QMAYQILV7T6TF.xdc", 5); // k (j, ck)
+// [Engine Memory]: 4,686 MB (+67416kb) [03:39:22]
+// HMemoryUtils.trashcanNow. Engine heap size: 4,686 MB. GUI used memory: 121 MB. Current time: 12/1/18 2:29:36 PM PST
+// Elapsed time: 22 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 518, 183); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F6SJNRTILV7T642.vhd", 3); // k (j, ck)
+// Elapsed time: 163 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FN0FBA2ILV7T649.vhd", 4); // k (j, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Elapsed time: 10 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("clk_wiz_0.vho", 165, 135); // D (w, ck)
+selectCodeEditor("clk_wiz_0.vho", 282, 157); // D (w, ck)
+selectCodeEditor("clk_wiz_0.vho", 204, 53); // D (w, ck)
+selectButton(PAResourceQtoS.StaleMoreAction_OUT_OF_DATE_DETAILS, "details"); // h (cM, ck)
+// Synthesis and Implementation Out-of-date Due to: show
+selectButton(PAResourceQtoS.StaleMoreAction_FORCE_UP_TO_DATE, "Force up-to-date"); // h (n, ResizableWindow)
+// Tcl Message: set_property needs_refresh false [get_runs synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs impl_1] 
+// Tcl Message: set_property needs_refresh false [get_runs blk_mem_gen_0_synth_1] 
+// Tcl Message: set_property needs_refresh false [get_runs clk_wiz_0_synth_1] 
+selectCodeEditor("clk_wiz_0.vho", 425, 76); // D (w, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (ck):  Re-customize IP : addNotify
+// r (ck): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (ck)
+// [GUI Memory]: 167 MB (+2147kb) [03:43:33]
+// Elapsed time: 21 seconds
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Clocking Options", 1); // cJ (C, r)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Output Clocks", 2); // cJ (C, r)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+// aI (ck): Generate Output Products: addNotify
+selectButton(PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OUTPUT_PRODUCTS_IMMEDIATELY, "Generate"); // a (aI)
+selectButton("PAResourceQtoS.SimpleOutputProductDialog_GENERATE_OF_OUTPUT_PRODUCTS_DID_NOT_OK", "OK"); // JButton (A, G)
+closeView(PAResourceOtoP.PAViews_IP_CATALOG, "IP Catalog"); // ad
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 433, 105); // ce (w, ck)
+selectButton(PAResourceItoN.MsgView_CLEAR_MESSAGES_RESULTING_FROM_USER_EXECUTED, "Messages_cleanUpMessages"); // B (f, ck)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Implementation, Place Design, DRC, Netlist, Instance, Required Pin]", 30, true, false, false, false, true, false); // ah (O, ck) - Popup Trigger - Node
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // aa (K, ck)
+selectMenuItem(PAResourceItoN.MsgTreePanel_DISCARD_USER_CREATED_MESSAGES, "Discard User Created Messages"); // ad (K, ck)
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 201, 185); // ce (w, ck)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+// Elapsed time: 14 seconds
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "IP Sources", 1); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 2, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0]", 2, true, false, false, false, false, true); // B (D, ck) - Double Click - Node
+// Run Command: PAResourceCommand.PACommandNames_RECUSTOMIZE_CORE
+// O (ck):  Re-customize IP : addNotify
+// r (ck): Re-customize IP: addNotify
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+dismissDialog("Re-customize IP"); // O (ck)
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Re-customize IP"); // r (ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, IP, clk_wiz_0, Instantiation Template, clk_wiz_0.vho]", 4, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("clk_wiz_0.vho", 22, 293); // D (w, ck)
+selectCodeEditor("clk_wiz_0.vho", 105, 306); // D (w, ck)
+selectCodeEditor("clk_wiz_0.vho", 105, 306); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+typeControlKey((HResource) null, "clk_wiz_0.vho", 'c'); // D (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 1); // k (j, ck)
+// Elapsed time: 13 seconds
+selectCodeEditor("main_project_top.vhd", 285, 436); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 140, 446); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 148, 443); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 102, 436); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 155, 442); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+selectTab(PAResourceEtoH.FileSetView_TABBED_PANE, (HResource) null, "Hierarchy", 0); // i (N, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 5, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, F5QMAYQILV7T6TF.xdc]", 5, false, false, false, false, false, true); // B (D, ck) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 675, 127); // ce (w, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 344, 6); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'v'); // ce (w, ck)
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 380, 6); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "F5QMAYQILV7T6TF.xdc", 'c'); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 1); // k (j, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("main_project_top.vhd", 275, 253); // ce (w, ck)
+// Elapsed time: 26 seconds
+selectCodeEditor("main_project_top.vhd", 142, 292); // ce (w, ck)
+// [GUI Memory]: 179 MB (+4636kb) [03:47:13]
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("main_project_top.vhd", 98, 84); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 4,711 MB. GUI used memory: 141 MB. Current time: 12/1/18 2:37:31 PM PST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectCodeEditor("main_project_top.vhd", 98, 278); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 236, 231); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'c'); // ce (w, ck)
+selectCodeEditor("main_project_top.vhd", 97, 369); // ce (w, ck)
+typeControlKey((HResource) null, "main_project_top.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 4,743 MB. GUI used memory: 141 MB. Current time: 12/1/18 2:38:06 PM PST
+// Elapsed time: 10 seconds
+selectCodeEditor("main_project_top.vhd", 14, 305); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "F5QMAYQILV7T6TF.xdc", 3); // k (j, ck)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0.vho", 2); // k (j, ck)
+selectCodeEditor("clk_wiz_0.vho", 283, 224); // D (w, ck)
+selectCodeEditor("clk_wiz_0.vho", 249, 218); // D (w, ck)
+selectCodeEditor("clk_wiz_0.vho", 277, 66); // D (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "main_project_top.vhd", 1); // k (j, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "FLW9TWWILV7T64G.vhd", 0); // k (j, ck)
+// Elapsed time: 17 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, main_project_top(Behavioral) (main_project_top.vhd)]", 1); // B (D, ck)
+selectCodeEditor("main_project_top.vhd", 117, 124); // ce (w, ck)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "clk_wiz_0.vho", 1); // k (j, ck)
+// [GUI Memory]: 189 MB (+421kb) [03:48:52]
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectCodeEditor("F5QMAYQILV7T6TF.xdc", 303, 162); // ce (w, ck)
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // aw
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec  1 14:39:14 2018] Launched synth_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+// Run Command: PAResourceCommand.PACommandNames_CORE_GEN
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, IP Catalog]", 4, false, false, false, false, false, true); // u (O, ck) - Double Click
+setText("PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE_SEARCH_FIELD", "RAM"); // OverlayTextField (P, ck)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 38 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bx (ck):  Starting Design Runs : addNotify
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Dec  1 14:40:41 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // L (Q, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Video Frame Buffer Read ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:v_frmbuf_rd:2.1", 16, "Video Frame Buffer Read", 0, false); // O (O, ck)
+// Elapsed time: 19 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Block Memory Generator ; AXI4 ; Production ; Included ; xilinx.com:ip:blk_mem_gen:8.4", 12, "Block Memory Generator", 0, false); // O (O, ck)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Video & Image Processing ;  ;  ;  ; ", 15, "Video & Image Processing", 0, false); // O (O, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Video Frame Buffer Read ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:v_frmbuf_rd:2.1", 16, "Video Frame Buffer Read", 0, false); // O (O, ck)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Video Frame Buffer Write ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:v_frmbuf_wr:2.1", 17, "Video Frame Buffer Write", 0, false); // O (O, ck)
+expandTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Video Frame Buffer Write ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:v_frmbuf_wr:2.1", 17); // O (O, ck)
+selectTreeTable(PAResourceAtoD.CoreTreeTablePanel_CORE_TREE_TABLE, "Video Frame Buffer Write ; AXI4, AXI4-Stream ; Production ; Included ; xilinx.com:ip:v_frmbuf_wr:2.1", 17, "Video Frame Buffer Write", 0, false, false, false, false, false, true); // O (O, ck) - Double Click
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_CORE
+// l (ck):  Customize IP : addNotify
+// r (ck): Customize IP: addNotify
+dismissDialog("Customize IP"); // l (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// Elapsed time: 153 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (r)
+dismissDialog("Customize IP"); // r (ck)
+// ah (ck): Implementation Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// TclEventType: RUN_LAUNCH
+dismissDialog("Implementation Completed"); // ah (ck)
+// TclEventType: RUN_MODIFY
+// bx (ck):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 4 
+// Tcl Message: [Sat Dec  1 14:44:12 2018] Launched impl_1... Run output will be captured here: /home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bx (ck)
+// [GUI Memory]: 199 MB (+962kb) [03:55:29]
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 114 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_REPORTS_WINDOW, "View Reports"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_REPORTS_WINDOW
+dismissDialog("Bitstream Generation Completed"); // ah (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {/home/saba/Documents/workstation4_image_processing/project_1/project_1.runs/impl_1/main_project_top.bit} [get_hw_devices xc7z020_1] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7z020_1] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7z020_1] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7z020 (JTAG device index = 1) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bx (ck)
