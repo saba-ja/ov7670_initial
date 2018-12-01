@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.NUMERIC_STD.ALL;
 
 entity main_project_top is
     Port ( 
@@ -99,6 +100,12 @@ SIGNAL vga_blue_internal_2     :  STD_LOGIC_VECTOR(3 downto 0);
 SIGNAL vga_hsync_internal_2    :  STD_LOGIC;
 SIGNAL vga_vsync_internal_2    :  STD_LOGIC;
 
+SIGNAL vga_red_final      :  STD_LOGIC_VECTOR(3 downto 0);
+SIGNAL vga_green_final    :  STD_LOGIC_VECTOR(3 downto 0);
+SIGNAL vga_blue_final     :  STD_LOGIC_VECTOR(3 downto 0);
+SIGNAL vga_hsync_final    :  STD_LOGIC;
+SIGNAL vga_vsync_final    :  STD_LOGIC;
+
 SIGNAL clk_100_internal : STD_LOGIC;
 SIGNAL clk_50_internal : STD_LOGIC;
 SIGNAL clk_25_internal : STD_LOGIC;
@@ -167,19 +174,32 @@ cam2: ov7670_top PORT MAP (
 
 PROCESS(clk_100_internal)
 BEGIN
- IF (SW(0) = '1') THEN
+ IF (SW(0) = '1' and SW(1) = '0' and SW(2) = '0') THEN
     vga_red      <= vga_red_internal_1; 
     vga_green    <= vga_green_internal_1; 
     vga_blue     <= vga_blue_internal_1;
     vga_hsync    <= vga_hsync_internal_1; 
     vga_vsync    <= vga_vsync_internal_1;
- ELSE
+ END IF;
+ 
+ IF (SW(0) = '0' and SW(1) = '1' and SW(2) = '0') THEN
     vga_red      <= vga_red_internal_2; 
     vga_green    <= vga_green_internal_2; 
     vga_blue     <= vga_blue_internal_2;
     vga_hsync    <= vga_hsync_internal_2; 
     vga_vsync    <= vga_vsync_internal_2;
  END IF;
+ 
+ IF (SW(0) = '0' and SW(1) = '0' and SW(2) = '1') THEN
+    vga_red      <= vga_red_internal_1;
+    vga_green    <= vga_green_internal_2;
+     
+    vga_blue     <= std_logic_vector(to_unsigned(to_integer(unsigned(vga_blue_internal_1)) + to_integer(unsigned(vga_blue_internal_2))/2,4)) ;
+    vga_hsync    <= vga_hsync_internal_1; 
+    vga_vsync    <= vga_vsync_internal_1;
+    
+ END IF;
 END PROCESS;
+
 
 end Behavioral;
